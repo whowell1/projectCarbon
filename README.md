@@ -1,3 +1,5 @@
 # projectCarbon
-This is the Junior Design Project done by 5 CS students at Georgia Tech. 
-The objective of the project to raise awareness of carbon emission done by airplane trip and to provide opportunities to offset the carbon footprint.
+Carbon Footprint Calculator is a Junior Design Project managed by 5 CS students at Georgia Tech.
+The objectives of this project are to raise awareness of amount of CO2 emitted by airplane trips and to provide opportunities to offset the carbon footprint.
+
+The product is a Chrome Extension.
