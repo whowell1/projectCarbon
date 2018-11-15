@@ -5,8 +5,32 @@ html, body {
 
 
 body {
-  min-width: 1005px; /* your desired width */
+  min-width:  500px; /* your desired width */
   max-width: 100%;
   position: relative;
   vertical-align:middle;
+}
+
+p {
+	color: blue;
+}
+
+
+
+/*.distance {
+    color: red;
+    font-weight: bold;
+}*/
+
+
+#distance {
+    background-color: #ccc;
+    padding: 20px
+}
+
+#charity_donation {
+	 background-color: #ccc;
+    padding: 20px
+
+
 }

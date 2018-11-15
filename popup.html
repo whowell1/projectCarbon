@@ -3,36 +3,53 @@
 <html>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vue.JS Tutorial</title>
-    <script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
-    <link href="index.css" rel = "stylesheet" type ="text/css">
-    <script src="index.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vue.JS Tutorial</title>
+	<script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
+	<link href="index.css" rel = "stylesheet" type ="text/css">
+	<script src="index.js"></script>
 
 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  </head>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
 
-  <body>
+<body>
 
-    <p> Carbon footprint </p>
-      <div id ="flight">
-           <p> flight 1 </p>
-           <p> flight 2 </p>
-           <p> flight 3 </p>
-        <div>
-      <div id= "offset"> 
-        <p> Offset your carbon footprint <p>
-           <form> 
-            Carbon offset amount: <br>
-               <input type="text" name="Carbon offset amount">
+	<p> Carbon footprint </p>
+	<div id ="initial break">
+		<div id ="flight">
+			<ul style="list-style-type:none">
+				<li>Flight 1</li>
+					<p id="distance"> your flight from x and y is x miles </p>
+				<li>Flight 2</li>
+					<p id="distance"> your flight from x and y is x miles </p>
+				<li>Flight 3</li>
+					<p id="distance"> your flight from x and y is x miles </p>
 
-           </form>
+			</ul>
+		</div>
+		<div id= "offset"> 
+			<p> Offset your carbon footprint </p>
+			<form> 
+				Carbon offset amount: <br>
+				<input type="text" name="Carbon offset amount">
+			</form>
+		</div>
+		<div id="charity options">
+			<p> Charity option 1</p>
+				<br>
+				<p id ="charity_donation"> Link to charity </p>
+			<p> Charity option 2</p>
+			<br>
+				<p id ="charity_donation"> Link to charity </p>
+
+		</div>
+	</div>
 
 
 
@@ -51,4 +68,4 @@
       }
     })
   </script> -->
-</html>
+  </html>
