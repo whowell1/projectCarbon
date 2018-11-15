@@ -7,8 +7,19 @@
 	"default_popup" : "popup.html"
 
 },
-"permissions": ["activeTab"]
+"context_scripts" : [
+{ 
+	"matches" : ["http://*/*"],
+	"css" : ["index.css"],
+	"js" : ["index.js"]
 
+
+
+}
+
+
+
+]
 	
 
 
