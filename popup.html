@@ -10,49 +10,76 @@
 	<title>Vue.JS Tutorial</title>
 	<script src="https://unpkg.com/vue@2.5.17/dist/vue.js"></script>
 	<link href="index.css" rel = "stylesheet" type ="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<script src="index.js"></script>
-
-
-
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
-
 <body>
 
-	<p> Carbon footprint </p>
+	<h3> Carbon footprint </h3>
 	<div id ="initial break">
 		<div id ="flight">
 			<ul style="list-style-type:none">
+				<li>Flight 1: New York to Atlanta</li>
+				<!-- <p id ="distance"> <img src="plane.png" height="42" width="42"> Your flight from x and y is x miles</p> -->
+				<div class="dropdown">
+				<img src="plane.png" height="42" width="42">
+ 					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1000 lbs of CO2
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							      <li><a href="#">HTML</a></li>
+
+							
+<!-- 							<li>xxxx kg of carbon</li>
+ -->						</ul>
+					</div>
 
 
-				<li>Flight 1</li>
-					<img src="plane.png" height="42" width="42" > <p id="distance"> your flight from x and y is x miles  </p>
-				<li>Flight 2</li>
-							<img src="plane.png" height="42" width="42" > <p id="distance"> your flight from x and y is x miles </p>
-				<li>Flight 3</li>
-							<img src="plane.png" height="42" width="42" > <p id="distance"> your flight from x and y is x miles </p>
 
-			</ul>
+					<li>Flight 2: Atlanta to Chicago</li>
+					<div class="dropdown">
+				<img src="plane.png" height="42" width="42">
+ 					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1000 lbs of CO2
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+								<li>xxxx kg of carbon</li>
+
+						</ul>
+					</div>
+
+<!-- 					<p id ="distance"> <img src="plane.png" height="42" width="42"> Your flight from x and y is x miles</p>
+ -->					<li>Flight 3: Chicago to Berlin</li>
+ <div class="dropdown">
+				<img src="plane.png" height="42" width="42">
+ 					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">1000 lbs of CO2
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu">
+							<li>xxxx kg of carbon</li>
+						
+						</ul>
+					</div>
+
+<!-- 					<p id ="distance"> <img src="plane.png" height="42" width="42"> Your flight from x and y is x miles</p>
+ -->
+				</ul>
+			</div>
+			<div id= "offset"> 
+				<h4> Offset your carbon footprint </h4>
+				<form> 
+					Carbon offset amount: <br>
+					<input type="text" name="Carbon offset amount">
+				</form>
+			</div>
+			<div id="charity options">
+				<h5> Charity option 1</h5>
+				<p id ="charity_donation"> <img src="treesAtlanta.jpg" height="42" width="42" > Link to charity </p>
+				<h5> Charity option 2</h5>
+				<p id ="charity_donation"> <img src="treesAtlanta.jpg" height="42" width="42" > Link to charity </p>
+
+			</div>
 		</div>
-		<div id= "offset"> 
-			<h4> Offset your carbon footprint </h4>
-			<form> 
-				Carbon offset amount: <br>
-				<input type="text" name="Carbon offset amount">
-			</form>
-		</div>
-		<div id="charity options">
-			<h5> Charity option 1</h5>
-				<p id ="charity_donation"> Link to charity </p>
-			<h5> Charity option 2</h5>
-				<p id ="charity_donation"> Link to charity </p>
-
-		</div>
-	</div>
-
-
-
 <!-- 
   <div id="app">
     <div>{{ message }}</div>
