@@ -12,25 +12,18 @@ body {
 }
 
 p {
-	color: blue;
+font-family: sans-serif;
 }
 
-
-
-/*.distance {
-    color: red;
-    font-weight: bold;
-}*/
 
 
 #distance {
     background-color: #ccc;
     padding: 20px
+    color: black;
 }
 
 #charity_donation {
-	 background-color: #ccc;
+	background-color: #ccc;
     padding: 20px
-
-
 }
